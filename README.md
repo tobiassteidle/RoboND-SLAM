@@ -33,7 +33,18 @@ $ source devel/setup.bash
 
 #### Step 5 Run the Simulation  
 ```sh
+$ roslaunch my_robot world.launch
+```
 
+#### Step 6 Navigate trought environment
+```sh
+$ roslaunch turtlebot_teleop keyboard_teleop.launch
+```
+
+#### Step 7 Save Map  
+With the map_server you can load and save maps. Running map_server will generate the map.pgm and the map.yaml files.
+```sh
+$ rosrun map_server map_saver -f myMap
 ```
 
 ### Output

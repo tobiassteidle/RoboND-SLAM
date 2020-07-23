@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <!-- World File -->
+    <arg name="world_file" default="worlds/willowgarage.world"/>
+
+    <!-- Launch Gazebo World -->
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+        <arg name="world_file" value="$(arg world_file)"/>
+    </include>
+
+    <!-- gmapping -->
+    <node pkg="gmapping" type="slam_gmapping" name="gmapping" output="screen">
+    </node>
+
+   <!--launch rviz-->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot)/rviz/SLAM.rviz" />
+
+</launch>
