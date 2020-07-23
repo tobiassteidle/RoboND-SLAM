@@ -1,7 +1,7 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
 # RoboND_SLAM
-Robotics Software Engineer Project "Where Am I"
+Robotics Software Engineer Lab "SLAM"
 
 ### Used Packages
 [gmapping](http://wiki.ros.org/gmapping)
