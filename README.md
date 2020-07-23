@@ -48,7 +48,7 @@ $ rosrun map_server map_saver -f myMap
 ```
 
 ### Output
-![alt text](images/output_1.png)
-![alt text](images/output_2.png)
+![alt text](images/output.png)
+
 
 
